@@ -1,5 +1,5 @@
 # git-command
-Personal git commands 
+Personal cheat sheet
 
 git init  
 
