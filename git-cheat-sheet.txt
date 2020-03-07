@@ -1,0 +1,42 @@
+git init  
+git add . OR git add <file name> 
+git status 
+
+git commit -m 'First Commit'
+
+git push origin master
+
+// remove a file to unstage
+git rm --cached <file>  
+
+// Remove everything from the repository
+git rm -r --cached .
+
+// Exclude a file globaly in all repositories
+git config --global core.excludesFile ~/.gitignore
+
+// Create .gitignore 
+touch .gitignore
+
+// To create a branch
+git branch login
+
+// To switch to branch
+git checkout login
+
+// To merge 
+git merge login
+
+// Disconnect from github
+git remote rm origin
+
+//See account detail
+git config --list
+
+git config --global user.name "---"
+git config --global user.email ---@gmail.com"
+
+// If asked username and password, use User TOKEN instead of login password!!! 
+
+// Exit github
+git remote rm
