@@ -11,6 +11,25 @@ git commit -m 'First Commit'
 
 git push origin master
 
+
+#Pull
+
+(1) git pull
+
+(2) Hit "i"
+
+(3) Type merge message => Change styling...etc
+
+(4) Hit esc
+
+(5) :wq
+
+(6) Hit enter
+
+
+
+
+
 Removing a file to unstage:
 git rm --cached <file>  
 
