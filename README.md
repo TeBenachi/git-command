@@ -45,6 +45,9 @@ touch .gitignore
 Creating a branch:
 git branch login
 
+Get out of a main branch:
+git remote rm origin
+
 Switching to a different branch:
 git checkout login
 
