@@ -12,6 +12,11 @@ git commit -m 'First Commit'
 git push origin master
 
 
+
+##### Deleting a branch 
+git branch -d (branch)
+
+
 #Pull
 
 (1) git pull
