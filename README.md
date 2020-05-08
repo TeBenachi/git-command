@@ -29,16 +29,17 @@ Initializing a new Git repo
 | git push origin master   | Pushed into a repo     | 
 
 
+<p align="right">[Back To Top](#table-of-contents)</p>
 
 Creating a branch
 --
 
 | Command       | Description           | 
 | ------------- |:-------------:| 
-| git checkout <branchName> | Get out of  branch |
-| git branch <branchName>    | Creating a branch    | 
-| git checkout <branchName> | Switching to a different branch  |
-| git branch -d (branch) | Deleting a branch |
+| git checkout (branchName) | Get out of  branch |
+| git branch (branchName)   | Creating a branch    | 
+| git checkout (branchName) | Switching to a different branch  |
+| git branch -d (branchName) | Deleting a branch |
 
 
 
@@ -47,12 +48,12 @@ Unstaging
 
 | Command       | Description           | 
 | ------------- |:-------------:| 
-| git rm --cached <file>    | Removing a file to unstage    | 
+| git rm --cached (file)    | Removing a file to unstage    | 
 | git rm -r --cached .  | Removing everything from the repository     | 
 
 
 
------
+--
 
 #Pull
 
