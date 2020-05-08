@@ -1,21 +1,46 @@
-# git-command
-Personal cheat sheet
 
-git init  
+### Table of Contents
 
-git add . OR git add <file name> 
+* [Initializing a new Git repo](#initializing-a-new-git-repo)
 
-git status 
+* [Creating a branch](#creating-a-branch)
 
-git commit -m 'First Commit'
+* [Unstaging](#unstaging)
 
-git push origin master
+*First thing first*,  `touch .gitignore` to create .gitignore on local machine and add untracked files
+
+### [Initializing a new Git repo] (#initializing-a-new-git-repo)
+---
+
+| Command       | Description           | 
+| ------------- |:-------------:| 
+| git init            | Initializing git | 
+| git add .           | Adding the files    |  
+| git status          | Checking the files     | 
+| git commit -m 'Initial Commit' | Add note to commit     | 
+| git push origin master   | Pushed into a repo     | 
+
+### [Creating a branch] (#creating-a-branch)
+---
+
+| Command       | Description           | 
+| ------------- |:-------------:| 
+| git checkout <branchName> | Get out of  branch |
+| git branch <branchName>    | Creating a branch    | 
+| git checkout <branchName> | Switching to a different branch  |
+| git branch -d (branch) | Deleting a branch |
+
+#Unstaging 
+---
+
+| Command       | Description           | 
+| ------------- |:-------------:| 
+| git rm --cached <file>    | Removing a file to unstage    | 
+| git rm -r --cached .  | Removing everything from the repository     | 
 
 
 
-##### Deleting a branch 
-git branch -d (branch)
-
+-----
 
 #Pull
 
@@ -31,30 +56,8 @@ git branch -d (branch)
 
 (6) Hit enter
 
-
-
-
-
-Removing a file to unstage:
-git rm --cached <file>  
-
-Removing everything from the repository:
-git rm -r --cached .
-
 Exclude a file globaly in all repositories:
 git config --global core.excludesFile ~/.gitignore
-
-Create .gitignore :
-touch .gitignore
-
-Creating a branch:
-git branch login
-
-Get out of a main branch:
-git remote rm origin
-
-Switching to a different branch:
-git checkout login
 
 Disconnecting from github:
 git remote rm origin
@@ -66,3 +69,6 @@ git config --global user.name "---"
 git config --global user.email "---@gmail.com"
 
 REMEMBER: If asked username and password, use User TOKEN instead of login password!!! 
+
+
+
