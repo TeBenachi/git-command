@@ -29,7 +29,7 @@ Initializing a new Git repo
 | git push origin master   | Pushed into a repo     | 
 
 
-<p align="right">[Back To Top](#table-of-contents)</p>
+<div align="right"> [Back To Top](#table-of-contents)</div>
 
 Creating a branch
 --
