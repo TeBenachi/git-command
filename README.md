@@ -7,10 +7,10 @@
 
 * [Unstaging](#unstaging)
 
-*First thing first*,  `touch .gitignore` to create .gitignore on local machine and add untracked files
+```*First thing first*,  `touch .gitignore` to create .gitignore on local machine and add untracked files```
 
-### [Initializing a new Git repo] (#initializing-a-new-git-repo)
----
+#Initializing a new Git repo
+--
 
 | Command       | Description           | 
 | ------------- |:-------------:| 
@@ -20,8 +20,8 @@
 | git commit -m 'Initial Commit' | Add note to commit     | 
 | git push origin master   | Pushed into a repo     | 
 
-### [Creating a branch] (#creating-a-branch)
----
+#Creating a branch
+--
 
 | Command       | Description           | 
 | ------------- |:-------------:| 
@@ -31,7 +31,7 @@
 | git branch -d (branch) | Deleting a branch |
 
 #Unstaging 
----
+--
 
 | Command       | Description           | 
 | ------------- |:-------------:| 
