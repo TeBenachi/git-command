@@ -44,6 +44,15 @@ Creating a branch
 | git branch -d (branchName) | Deleting a branch |
 
 
+Pull
+--
+| Command       | Description           | 
+| ------------- |:-------------:| 
+| git pull     | pull request  |
+| Hit "i"      | Type  message "Change styling" etc |
+| :wq          | Escape    |
+| Hit enter    |            |
+
 
 Unstaging 
 --
@@ -57,19 +66,6 @@ Unstaging
 
 --
 
-#Pull
-
-(1) git pull
-
-(2) Hit "i"
-
-(3) Type merge message => Change styling...etc
-
-(4) Hit esc
-
-(5) :wq
-
-(6) Hit enter
 
 Exclude a file globaly in all repositories:
 git config --global core.excludesFile ~/.gitignore
