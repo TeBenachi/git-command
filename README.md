@@ -39,7 +39,6 @@ Creating a branch
 | Command       | Description           | 
 | ------------- |:-------------:| 
 | git pull | Pull before creating a new branch |
-| git checkout (branchName) | Get out of  branch |
 | git checkout -b (branchName)   | Creating a branch    | 
 | git push origin (branchName) | Push the new branch on github |
 | git checkout (branchName) | Switching to a different branch  |
