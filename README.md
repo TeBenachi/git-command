@@ -33,6 +33,22 @@ Initializing a new Git repo
 [Back To Top](#table-of-contents)
 
 
+In case if you made changes before git pull
+--
+
+| Command       | Description           | 
+| ------------- |:-------------:| 
+| git stash | Stach changes |
+| git pull   |    | 
+| git stash apply | Merge changes|
+| git add . |  |
+| git status | |
+| git commit -m "typo" | |
+| git push -u origin main | Merge to main branch|
+
+
+
+
 Creating a branch
 --
 
